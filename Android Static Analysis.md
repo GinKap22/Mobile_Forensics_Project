@@ -1,5 +1,8 @@
-Pulling an APK fro the google Play Store / 24th November 2026
-Android Studio > Download InjuredAndroid 
+TCM Security : Mobile Application Penetration Testing (MAPT) / 24th November 2026
+
+Pulling an APK fro the google Play Store
+Android Emulator : Nexus 5
+Android Studio : Download InjuredAndroid 
   * App is not available from play store at the moment
   * Found the github repository but its in archived already and read-only mode 
       https://github.com/B3nac/InjuredAndroid/releases/tag/v1.0.12
@@ -11,3 +14,5 @@ Found some altrnatives (not yet tried)
 3. OVAA / https://github.com/oversecured/ovaa
 4. InsecureBankv2 / https://github.com/dineshshetty/Android-InsecureBankv2
 5. OWASP MASTG Hacking Playground / https://github.com/OWASP/MASTG-Hacking-Playground
+
+
