@@ -18,7 +18,7 @@ Android studio Rabbit 2 doesn't have any more of those Nexus 5
     3. Manually enter the old phone's specs—for a Nexus 5, set Screen Size to 4.95 inches, Resolution to 1080 x 1920 px,and RAM to            2048MB.
     4. Click Finish to save your custom profile and pair it with your desired system image.  
 
-    Enable Play Store in config.ini
+  Enable Play Store in config.ini
     
     1. In Device Manager, click the three dots (⋮) next to your new custom device and select Show on Disk.
     2. Open the config.ini file with any plain text editor (like Notepad or TextEdit).
@@ -28,11 +28,20 @@ Android studio Rabbit 2 doesn't have any more of those Nexus 5
     tag.display=Google Play
     tag.id=google_apis_playstore
     Use code with caution.
-    (Note: Replace android-29 with your chosen API level—such as android-30 or android-34—and replace x86 with x86_64 or arm64-v8a to match the exact folder path inside your Android Sdk\system-images\ folder. On Mac/Linux, use forward slashes / instead of backslashes \).
+    (Note: Replace android-29 with your chosen API level—such as android-30 or android-34—and replace x86 with x86_64 or arm64-v8a to       match the exact folder path inside your Android Sdk\system-images\ folder. On Mac/Linux, use forward slashes / instead of              backslashes \).
     4. Save and close config.ini.
 
-Step 4: Wipe Data and Boot
+  Wipe Data and Boot
 
-1. Return to Device Manager in Android Studio (you may need to close and reopen the Device Manager panel for the Play Store icon to appear).
-2. Click the three dots (⋮) next to your custom device and select Wipe Data.
-3. Click the Play (▶) button to launch the emulator. The Google Play Store app will now be installed in the app drawer.
+    1. Return to Device Manager in Android Studio (you may need to close and reopen the Device Manager panel for the Play Store icon          to appear).
+    2. Click the three dots (⋮) next to your custom device and select Wipe Data.
+    3. Click the Play (▶) button to launch the emulator. The Google Play Store app will now be installed in the app drawer.
+
+
+  Bring Back the Missing "Proxy" Tab in Extended Controls
+
+    If you specifically want the Proxy tab to appear in the Extended Controls window shown in your screenshot, you must launch the           emulator as a standalone window outside of Android Studio:
+    1. Close the running emulator.
+    2. In Android Studio, go to File > Settings > Tools > Emulator.
+    3. Uncheck the box labeled Launch in the Running Devices tool window and click OK.
+    4. Start your emulator again—it will open in a separate floating window, and the General and Proxy tabs will reappear under               Extended Controls > Settings
