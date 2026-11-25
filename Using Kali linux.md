@@ -1,5 +1,5 @@
-**Using Kali linux and apktool to decompressed and read apks besides using JADX
-**
+***Using Kali linux and apktool to decompressed and read apks besides using JADX***
+
 cmd: apktool d InjuredAndroid-1.0.12-release.apk  
 
 <img width="641" height="467" alt="image" src="https://github.com/user-attachments/assets/e47dd911-3c6b-4105-a4e5-ac3fb4da2419" />
