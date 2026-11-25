@@ -1,5 +1,7 @@
 TCM Security : Mobile Application Penetration Testing (MAPT) / 24th November 2026
 
+OS: Windows 11
+
 Android Emulator : Nexus 5 , Android 10.0 ("Q") x86_6 , API 29
 
 Android Studio : Download InjuredAndroid 
