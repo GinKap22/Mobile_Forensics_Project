@@ -57,6 +57,32 @@ entire apk to our local machine ready for analysis.
 Just follow the same technique to pull apk from play store using ADB commands.
 
 
+Often hardcoded strings can be found in resources/strings.xml, xml.xml,source code. Using 
+text search feature to search or filter and identify some sensitive information
+
+FlagOne
+
+<img width="271" height="500" alt="image" src="https://github.com/user-attachments/assets/72cc82fe-883b-4b69-9cb9-5047dbc9466b" /> <img width="275" height="505" alt="image" src="https://github.com/user-attachments/assets/75aecec3-e8bc-4dbb-9a5d-de4a0d3911df" />
+
+<img width="1277" height="683" alt="image" src="https://github.com/user-attachments/assets/7d5c2c53-2a45-4fca-8ff8-dc4799f3b755" />
+
+
+Flagtwo
+
+<img width="269" height="505" alt="image" src="https://github.com/user-attachments/assets/b23353f5-f319-4398-8040-b2b91780beb5" /> <img width="272" height="502" alt="image" src="https://github.com/user-attachments/assets/5ba1e76d-782a-4ab3-835e-fa9d2a5a7666" />
+
+
+
+
+<img width="1278" height="683" alt="image" src="https://github.com/user-attachments/assets/56db563b-076c-4275-875a-42342a4dbb84" />
+
+
+<img width="847" height="188" alt="image" src="https://github.com/user-attachments/assets/a618be1e-ebf2-480f-be53-75f9a9992a75" />
+
+
+<img width="311" height="503" alt="image" src="https://github.com/user-attachments/assets/ba649331-9a1f-4b94-a8eb-676f9507b34b" />
+
+
 
 
 
